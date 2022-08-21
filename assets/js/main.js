@@ -128,8 +128,8 @@ const sr = ScrollReveal({
     delay:400,
     //reset:true,
 })
-
-sr.reveal(`.home__data`)
+sr.reveal(`.profile__border`)
+sr.reveal(`.home__data`, { delay: 500 })
 sr.reveal(`.home__handle`,{delay:700})
 sr.reveal(`.home__social,.home__scroll`,{delay:900,origin:'bottom'})
 
